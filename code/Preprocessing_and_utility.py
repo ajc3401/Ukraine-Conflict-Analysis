@@ -398,7 +398,7 @@ if __name__ == "__main__":
     for index in processed_articles.index:
         if ("ukraine" not in processed_articles['content'].iloc[index]):
             processed_articles.drop(index=index, inplace=True)
-    print("hi")
+    ''' Uncomment the below to push data to AWS database'''
     # Set up connection
    # conn = None
    # conn = connect_to_database(host_name, dbname, username, password, port)
@@ -407,5 +407,4 @@ if __name__ == "__main__":
     #df_to_db(curr, processed_articles)
     #conn.commit()
 
-    # Also save filtered articles to new csv
-   # processed_articles.to_csv('relevant_preprocessed_ukraine_war_news.csv', index=False)
+  
