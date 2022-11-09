@@ -1,4 +1,5 @@
 # Ukraine-Conflict-Analysis
-![UkraineAnalysisNewspapersandMap](https://user-images.githubusercontent.com/117476344/200758633-2a1dbe9b-86a4-4ddf-af61-11d269051287.png)
+
+![UkraineAnalysisNewspapersandMap](https://user-images.githubusercontent.com/117476344/200758790-9dec9481-ffc5-4a56-9a80-d69cbfbae4ff.png)
 
 ## Introduction ##
