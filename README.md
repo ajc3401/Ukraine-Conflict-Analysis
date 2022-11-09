@@ -22,13 +22,13 @@ In this study we focus on articles spanning from the beginning of the conflict (
 
 ## Key insights ##
 
-#### Sentiment analysis ####
+### Sentiment analysis ###
 
 Sentiment over time is heavily varied for CNN, Fox News, and Reuters but the sentiment from TASS and Ukrinform accurately reflect the state of the war.
 
 ![Sentiment_score_over_time](https://user-images.githubusercontent.com/117476344/200761361-996f92bd-873f-431c-965d-74c5915e761e.png)
 
-#### Keywords ####
+### Keywords ###
 
 Keywords from each newspaper are distinguished from each other and give good insight in how each newspaper covers the conflict.
 
@@ -40,12 +40,13 @@ Keywords from each newspaper are distinguished from each other and give good ins
 
 ![Key_unigrams_bigrams](https://user-images.githubusercontent.com/117476344/200761916-5098c357-ec91-4914-a5a8-2bcc583c0431.png)
 
-#### Most important features for classification ####
+### Most important features for classification ###
 
 The most important words taken from training an XGBoost classifier with TF-IDF scores largely overlap with keywords found using c-TF-IDF.  Sentiment was also used as a feature but wasn't as significant as some other words for classification due to the large variance in sentiment across all the articles.
 
 
 ![Most_important_features](https://user-images.githubusercontent.com/117476344/200764268-738b487c-cf76-463f-8a69-0bdb1442567f.png)
 
+### For more details ###
 For more analysis, see this [notebook](code/Analysis.ipynb)
 
