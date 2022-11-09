@@ -31,9 +31,16 @@ Sentiment over time is heavily varied for CNN, Fox News, and Reuters but the sen
 **Key words**
 
 Key words from each newspaper are distinguished from each other and give good insight in how each newspaper covers the conflict.
+
 * **Reuters**: Focused on economic impact.
 * **CNN** Considers the impact on a global scale.
-* **Fox News** 
+* **Fox News** Writes mainly on how the war affects the USA and critical of the Biden administration's response
+* **TASS** Biased towards Russia by referencing areas of Ukraine with pro-Russian separitists, etc.
+* **Ukrinform** Biased towards Ukraine seeing itself as a victim with words like "invasion" and "enemy".
+
+For more analysis, see this [notebook](Analysis.ipynb)
+
 ![Key_unigrams_bigrams](https://user-images.githubusercontent.com/117476344/200761916-5098c357-ec91-4914-a5a8-2bcc583c0431.png)
+
 
 
